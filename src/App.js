@@ -17,7 +17,7 @@ function App() {
         { id: 1, name: 'Open AI' },
         { id: 2, name: 'ZALO-AI' },
     ];
-    const [selectedOption, setSelectedOption] = useState(1);
+    const [selectedOption, setSelectedOption] = useState('1');
     const handleSelectChange = (event) => {
         setSelectedOption(event.target.value);
     };
