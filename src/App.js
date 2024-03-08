@@ -28,6 +28,7 @@ function App() {
                 <h1>Text to speech</h1>
                 <label htmlFor="author" className="form-label" style={{ fontSize: 18 }}>Select provider:</label>
                 <select id="author" name="author" value={selectedOption} onChange={handleSelectChange}
+
                         style={{width:'108px',height:24,fontSize:15}}>
                     {/* Tạo các tùy chọn từ mảng options */}
                     {options.map(option => (

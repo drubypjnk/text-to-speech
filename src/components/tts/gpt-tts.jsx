@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios";
 
-const openAIApiKey = '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';
+const openAIApiKey = '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';
 const speechUrl = 'https://api.openai.com/v1/audio/speech';
 
 const headers = {
